@@ -1,0 +1,14 @@
+.main-body {
+    display: grid;
+    background-color: blue;
+    max-width: 700px;
+    text-align: center;
+}
+
+.sub-main {
+    text-align: center;  
+}
+
+body {
+    align-items: center;
+}

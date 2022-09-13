@@ -1,0 +1,44 @@
+.main-sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    position: fixed;
+    left: 0;
+    width: 20%;
+    font-weight: 400;
+    background-color: #F0F2F5;
+    cursor: pointer;
+}
+
+body {
+    margin-bottom: 17000px;
+    background-color: #F0F2F5;
+}
+
+.sidebar-div1 {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 2px;
+    font-family: Arial;
+    font-weight: 500;
+}
+
+.sidebar-div1:hover {
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+.sidebar-img {
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+.sidebar-img1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+}

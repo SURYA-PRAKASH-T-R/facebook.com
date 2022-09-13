@@ -1,0 +1,111 @@
+.main-subject-div {
+    width: 500px;
+    height: 100%;
+    margin-left: 465px;
+    margin-top: 30px;
+    margin-bottom: 1000px;
+    padding-bottom: 5px;
+}
+
+.continer-div {
+    background-color: white;
+    width: 500px;
+    height: 650px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.main-profile-top-img {
+    width: 25px;
+    height: 25px;
+}
+
+.profile-button-img {
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding: 4px;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 25px;
+    border-color: gainsboro;
+    border-style: solid;
+    position: relative;
+    
+}
+
+.profile-button-img .hover-profile-div{
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.profile-button-img:hover .hover-profile-div{
+    opacity: 1;
+}
+.hover-profile-div {
+    height: 130px;
+    width: 300px;
+    margin-left: -150px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+
+.make-border-div {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 0px;
+    margin-top: -5px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: gainsboro;
+}
+
+.like-button-div {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: gainsboro;
+    justify-content: space-around;
+}
+
+.button-hover-icons {
+    display: flex;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 35px;
+    background-color: white;
+    align-items: center;
+}
+.button-hover-icons:hover {
+    color: rgb(23, 123, 231);
+}
+
+.button-hover-icons:hover {
+    background-color: gainsboro;
+}
+
+.command-input-div {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: gainsboro;
+    border: none;
+    padding-left: 15px;
+}
